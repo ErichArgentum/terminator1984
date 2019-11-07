@@ -4,18 +4,73 @@
   margin: 0;
   color:#fff;
   line-height: 1.6;
-}
 
+}
 /* showcase */
 #showcase{
   margin: 0;
   padding: 0;
-  background: url('../img/Kris.jpg') no-repeat center/cover;
+  background: url('../img/taust.jpg') no-repeat center/cover;
   width: 100%;
   height: 100vh;
   position: relative;
   overflow-y: hidden;
 }
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 10% 20%;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  margin-top: 25vh;
+  padding-right: 10px;
+
+}
+
+#wrapper p, h3 {
+  padding-left: 10px;
+
+}
+
+#wrapper div{
+
+}
+
+#wrapper .pilt1{
+  background-image:url('../img/arnold.jpg');
+  background-size: cover;
+  margin-left: 40px;
+  height: 120px;
+  width: 80px;
+  opacity: 1;
+}
+
+#wrapper .pilt2{
+  background-image:url('../img/paul.jpg');
+  background-size: cover;
+  margin-left: 40px;
+  height: 120px;
+  width: 80px;
+  opacity: 1;
+}
+
+#wrapper .pilt3{
+  background-image:url('../img/linda.jpg');
+  background-size: cover;
+  margin-left: 40px;
+  height: 120px;
+  width: 80px;
+  opacity: 1;
+}
+
+#wrapper .pilt4{
+  background-image:url('../img/michael.jpg');
+  background-size: cover;
+  margin-left: 40px;
+  height: 120px;
+  width: 80px;
+  opacity: 1;
+  }
 
 nav {
   height: 60px;
