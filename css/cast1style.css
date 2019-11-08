@@ -19,10 +19,10 @@
 
 #wrapper{
   display:grid;
-  grid-template-columns: 10% 20% 70%;
+  grid-template-columns: 10% 30% 40%;
   grid-column-gap: 0.5em;
   grid-row-gap: 0.5em;
-  margin-top: 25vh;
+  margin-top: 5vh;
   padding-right: 10px;
 
 
@@ -39,7 +39,6 @@
 
 #wrapper .pilt1{
   grid-column: 1/2;
-  grid-row: 1/2;
   background-image:url('../img/arnold.jpg');
   background-size: cover;
   margin-left: 40px;
@@ -78,19 +77,35 @@
   opacity: 1;
   }
 
-  #wrapper .video{
-    grid-column: 1/2;
-    grid-row: 4/4;
+  .video{
+    grid-column: 3/4;
+    grid-row: 2/5;
 
+  }
+
+.ptext{
+  grid-column: 3/4;
+  grid-row: 5/5;
+}
+
+.header{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+  .header2{
+    grid-column: 3/4;
+    grid-row: 1/1;
   }
 
 nav {
   height: 60px;
   width: 100%;
   background-color: #B51B1D;
-  opacity: 0.3;
+  opacity: 0.5;
   color: #eee;
   position: fixed;
+  font-weight: 700;
 }
 nav ul {
   list-style: none;
