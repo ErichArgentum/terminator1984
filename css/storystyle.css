@@ -10,20 +10,29 @@
 #showcase{
   margin: 0;
   padding: 0;
-  background: url('../img/Kris.jpg') no-repeat top/cover;
+  background: url('../img/taust.jpg') no-repeat top/cover;
   width: 100%;
   height: 100vh;
   position: relative;
   overflow-y: hidden;
+}
+.storytext{
+  margin-top: 25vh;
+  margin-left: 7vw;
+  margin-right: 20vw;
+  font-size: 28px;
+  color: #f4f4f4;
+  opacity: 1;
 }
 
 nav {
   height: 60px;
   width: 100%;
   background-color: #B51B1D;
-  opacity: 0.3;
+  opacity: 0.5;
   color: #eee;
   position: fixed;
+  font-weight: 700;
 }
 nav ul {
   list-style: none;
