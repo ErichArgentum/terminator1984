@@ -57,7 +57,8 @@ nav{
   height: 60px;
   width: 100%;
   background-color: #B51B1D;
-  opacity: 0.3;
+  opacity: 0.5;
+  font-weight:700;
   color: #eee;
   position: fixed;
 }
